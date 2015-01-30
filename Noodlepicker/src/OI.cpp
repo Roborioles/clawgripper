@@ -26,9 +26,9 @@ OI::OI() {
 
 	joystick1 = new Joystick(0);
 	
-	joystickButton3 = new JoystickButton(joystick1, 1);
+	joystickButton3 = new JoystickButton(joystick1, 3);
 	joystickButton3->WhenPressed(new SpinStop());
-	joystickButton2 = new JoystickButton(joystick1, 1);
+	joystickButton2 = new JoystickButton(joystick1, 2);
 	joystickButton2->WhenPressed(new SpinOut());
 	joystickButton1 = new JoystickButton(joystick1, 1);
 	joystickButton1->WhenPressed(new SpinIn());
